@@ -52,7 +52,7 @@ function Home() {
             <h1 className='text-[#FBD125] font-bold text-4xl my-4'>
               {t('Abstract')}
             </h1>
-            <p className='leading-10'>
+            <p className='leading-10' style={{'text-align':'justify'}}>
               {t('An ecosystem of tax Apps and services that use machine-enforceable Inter-Blockchain Communication (IBC) protocol to exchange digital assets and data. Tax & Block, a trademark of Pitshou Solutions LLC, aims to provide the best tax filing solutions that reshape tax professionals’ businesses, meet taxpayers’ needs, and potentially serve as a high-impact use case for tax administration improvement using blockchain technology. In the presence of intense competition going on between tax preparation software and tax preparation services, most taxpayers primarily opt for tax preparation software to save some cash. While the tax software option offers flexibility and upfront money saving, this underscores the potential of getting out of your hard work and the maximization of tax returns and/or minimization of tax liability in the back end, especially when dealing with complex taxes. Additionally, the tax system complexity increasing with the current exponential growth of both interests and investments such as in crypto assets brings about risks of audits that may also end up with legal actions in case of tax fraud.[1] Finally, the unnoticed tax expectations gap amplifies losses in the tax administration.')}
               <br />
               {t('We propose a blockchain.')}
