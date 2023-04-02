@@ -34,25 +34,25 @@ function Home() {
               <p className=''><i className='fa fa-globe py-2 bg-[#524931] w-8 h-8 rounded-full mr-2 text-center my-2'></i>https://whitepaper.taxblock.network</p>
             </div>
           </div>
-          <div className='text-sm sm:px-16 md:px-26 lg:px-36'>
-            <p className='p-4 my-3'>
+          <div className='text-sm sm:px-16 md:px-26 lg:px-36' style={{'text-align':'justify'}}>
+            <p className='p-4 my-3'style={{'text-align':'justify', 'font-size': 'large'}} >
               {t(`In whatever you do, make sure that your work lies along with your eternity with GOD whose HOLINESS remains the benchmark for without which no one will see THE LORD as the day of HIS RETURN draws closer in front of us here.`)}
             </p>
-            <p className='p-4 my-3'>
+            <p className='p-4 my-3' style={{'text-align':'justify', 'font-size': 'large'}}>
               {t(`A citation from Prophets Dr. David Owuor, former US Cancer Researcher and Professor of Pharmaceuticals whose mysterious and prophetic marks have openly revealed who `)}
               <a className='text-[#FBD125]' href='#'><u>{t('THE TWO DREADFUL WITNESSES OF REVELATION 11')}</u></a>
               &nbsp; {t('are')}
             </p>
 
-            <p className='p-4 my-3'>
+            <p className='p-4 my-3' style={{'text-align':'justify', 'font-size': 'large'}}>
               <span className='text-[#FBD125] font-bold'>{t('NOTE:')}</span>{t(`For updates and discussions about the project whose launch is coming up soon, please`)}  <a className='text-[#FBD125]' href='#'>{t('join our community chat list.')}</a>
             </p>
           </div>
-          <div className='p-4 sm:px-20 md:px-30 lg:px-40'>
+          <div className='p-4 sm:px-20 md:px-30 lg:px-40' >
             <h1 className='text-[#FBD125] font-bold text-4xl my-4'>
               {t('Abstract')}
             </h1>
-            <p className='leading-10' style={{'text-align':'justify'}}>
+            <p className='leading-10' style={{'text-align':'justify', 'font-size': 'large'}}>
               {t('An ecosystem of tax Apps and services that use machine-enforceable Inter-Blockchain Communication (IBC) protocol to exchange digital assets and data. Tax & Block, a trademark of Pitshou Solutions LLC, aims to provide the best tax filing solutions that reshape tax professionals’ businesses, meet taxpayers’ needs, and potentially serve as a high-impact use case for tax administration improvement using blockchain technology. In the presence of intense competition going on between tax preparation software and tax preparation services, most taxpayers primarily opt for tax preparation software to save some cash. While the tax software option offers flexibility and upfront money saving, this underscores the potential of getting out of your hard work and the maximization of tax returns and/or minimization of tax liability in the back end, especially when dealing with complex taxes. Additionally, the tax system complexity increasing with the current exponential growth of both interests and investments such as in crypto assets brings about risks of audits that may also end up with legal actions in case of tax fraud.[1] Finally, the unnoticed tax expectations gap amplifies losses in the tax administration.')}
               <br />
               {t('We propose a blockchain.')}

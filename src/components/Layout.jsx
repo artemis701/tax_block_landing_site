@@ -29,7 +29,7 @@ function Layout() {
             placeholder="Select Language"
             selectedSize={14}
           />
-          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/sample.pdf'>
+          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/Whitepaper_EN.pdf'>
           {t('Download PDF')}
           </a>
         </div>
@@ -45,7 +45,7 @@ function Layout() {
             placeholder="Select Language"
             selectedSize={14}
           />
-          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/sample.pdf'>
+          <a className='rounded text-white bg-gradient-to-r to-[#B2842C] from-[#DDC161] py-3 h-[50px] px-6' download={true} href='/Whitepaper_EN.pdf'>
           {t('Download PDF')}
           </a>
         </div>}
