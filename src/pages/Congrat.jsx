@@ -14,9 +14,16 @@ function Congrat({ showSidebar }) {
           <div className='place-content-center w-full h-full pt-[150px]'>
             <img className='mx-auto sm:w-60 w-40' src='imgs/user-congrat.png' />
             <h1 className='sm:text-[60px] text-2xl sm:text-[35px] text-[#FBD125] w-full text-center font-[nunito] font-bold'>{t('CONGRATULATION!')}</h1>
-            <p className='text-[#B2842C]  text-base p-4 sm:text-[28px] font-[nunito] w-full text-center'>{t('Thank You For Joining The Tax & Block Community Chat List!')}</p>
-            <p className='text-center w-full my-4 text-sm sm:text-[20px] px-4 font-[nunito]'>{t('A Welcome Email Has Been Sent To You With The Attached Whitepaper ')}</p>
-            <p className='text-center w-full my-4 text-sm sm:text-[20px] px-4 font-[nunito]'>{t('As Well. If You Don')}'{t('t See It, Please Check Your Spam Folder')}</p>
+            <p className='text-[#B2842C]  text-base p-2 sm:text-[28px] font-[nunito] w-full text-center' style={{'padding-top':'40px'}}>{t('Thank You For Joining The Tax & Block Community Chat List!')}</p>
+            <p className='text-[#B2842C]  text-base p-2 sm:text-[28px] font-[nunito] w-full text-center'>{t('A welcome email has also been sent to you with the attached whitepaper.')}</p>
+            <p className='text-[#B2842C]  text-base p-2 sm:text-[28px] font-[nunito] w-full text-center'>{t('If you don\'t see it, please check your spam folder')}</p>
+            <p className='text-center w-full my-4 text-sm sm:text-[25px] px-4 font-[nunito]' style={{'padding-top':'20px'}}>{t('Need to know more about Pitshou Solution LLC? Well, Pitshou Solutions LLC is a Texas')}</p>
+            <p className='text-center w-full my-4 text-sm sm:text-[25px] px-4 font-[nunito]'>{t('company that manages two different projects: blockchain software and mold assessment.')}</p>
+
+            <p className='text-center w-full my-4 text-sm sm:text-[22px] px-4 font-[nunito]' style={{'padding-top':'30px'}}>{t('While the blockchain software project relates to Tax & Block under TrafficSourceBuilder with emphasis on email marketing,')}</p>
+            <p className='text-center w-full my-4 text-sm sm:text-[22px] px-4 font-[nunito]'>{t('the mold assessment project is conducted under Applied Mold Inspection of Taxas. This project aims to apply scientific')}</p>
+            <p className='text-center w-full my-4 text-sm sm:text-[22px] px-4 font-[nunito]'>{t('knowledge and technology to perfrom thorough mold inspections in commercial and residential buildings')}</p>
+            
             <div className='w-full justify-center text-center mt-10'>
               <button className='rounded text-white mx-auto bg-gradient-to-r to-[#B2842C] from-[#FBD125] py-3 h-[50px] px-6'>
                 {t('Contact Now')}
